@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="프론트엔드 프로그래밍 연습을 위해 만드는 페이지"
+    />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="SCM" />
+    <meta property="og:title" content="코드 작성용 제목" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://worldbestpage.com" />
+    <link rel="shortcut icon" href="images/android-chrome-512x512.png" />
+    <!-- CSS 파일 로드 -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link src="js/script.js" />
+    <title>🌐World Best Page🌐</title>
+  </head>
+  <body>
+    <!-- 섹션은 부모라 칭하자 -->
+    <section>
+      <!-- 섹션의 바로 아래 있는 태그는 자식이라고 표현하자. -->
+      <h1>Hello HTML5</h1>
+      <!-- 동일한 레벨 끼리는 형제라 칭하자 -->
+      <a href="test.html">Test</a>
+      <a href="test2.html">Test2</a>
+      <a href="random.html">Random</a>
+      <div>
+        <!-- 그 외 하위 태그는 자손이라고 표현하자 -->
+        <h1>Hello HTML5</h1>
+        <p>즐거운 웹프로그래밍 입문</p>
+      </div>
+      <script type="text/javaScript" src="js/script.js">
+        result1.innerText = foo(["홍길동", "김길동", "박길동", "랜덤길동"], 4);
+      </script>
+    </section>
+    <section>
+      <!-- O -->
+      <ol>
+        <li>
+          item
+          <div>first item</div>
+        </li>
+        <li>item</li>
+      </ol>
+      <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+      </ol>
+      <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+      </ul>
+      <table>
+        <tr>
+          <th>제품명</th>
+          <th>제품명</th>
+          <th>제품명</th>
+        </tr>
+        <tr>
+          <td>제품명</td>
+          <td>제품명</td>
+          <td>제품명</td>
+        </tr>
+        <tr>
+          <td>제품명</td>
+          <td>제품명</td>
+          <td>제품명</td>
+        </tr>
+      </table>
+      <br />
+      <span>
+        <table>
+          <tr>
+            <th>Sports</th>
+            <th>Club</th>
+            <th>Player First Name</th>
+          </tr>
+          <tr>
+            <td rowspan="5">Basketball</td>
+            <td rowspan="3">Basketball Club</td>
+            <td>James</td>
+          </tr>
+          <tr>
+            <td>Eric</td>
+          </tr>
+          <tr>
+            <td>Smith</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Pro Basketball Club</td>
+            <td>Scott</td>
+          </tr>
+          <tr>
+            <td>Elvein</td>
+          </tr>
+        </table>
+      </span>
+      <br />
+      <span>
+        <table>
+          <tr>
+            <th>번호</th>
+            <th>상품명</th>
+            <th>수량</th>
+            <th>가격</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>콜라</td>
+            <td>1개</td>
+            <td>1,500원</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>사이다</td>
+            <td>2개</td>
+            <td rowspan="2">1,000원</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>탄산수</td>
+            <td>3개</td>
+          </tr>
+          <tr>
+            <td>총 금액</td>
+            <td colspan="3">6,500원</td>
+          </tr>
+        </table>
+      </span>
+    </section>
+  </body>
+</html>
+<style>
+  table {
+    width: 40%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: beige;
+    border: 1px solid #444444;
+    padding: 10px;
+  }
+  td {
+    border: 1px solid #444444;
+    padding: 10px;
+  }
+</style>

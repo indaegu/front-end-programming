@@ -1,0 +1,8 @@
+/* a 태그에 마우스를 호버했을 때 */
+a:hover {
+  color: blue;
+}
+/* 리스트의 첫 번째 아이템 */
+li:first-child {
+  font-weight: bold;
+}

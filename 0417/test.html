@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <span>
+      <span id="ins del">
+        <p>
+          세일 기간을 맞이 하여 온라인 강의 수강권을 할인된 금액(정가
+          <del>36,000원</del> <ins>20,000원</ins>)에 판매합니다.
+        </p>
+      </span>
+
+      <span id="sub sup">
+        공기의 원소 기호는 H<sub>2</sub>O
+        <br />
+        4<sup>2</sup>은 16입니다.
+      </span>
+
+      <span id="figure & figcaption">
+        <figure>
+          <img src=https://bit.ly/2bgFrvL width="600px"/>
+          <figcaption>World Map</figcaption>
+          <!-- 이미지의 캡션을 정의 -->
+        </figure>
+      </span>
+
+      <span id="mark">
+        <p>The quick <mark>brown fox</mark> jumps over the lazy dog.</p>
+      </span>
+
+      <span id="abbr">
+        <p>
+          마우스 커서를
+          <abbr title="안녕하세요">고유명사</abbr>
+          에 올리면 설명 캡션이 생겨요!
+        </p>
+      </span>
+
+      <span id="wbr">
+        <p>
+          아래 링크 문자열은 강제로 개행할 경우 텍스트가 단어 중간에서 끊어져
+          읽기 어려운 문제를 일으키기 때문에 이를 방지 하기 위해 적절하게
+          단어대로 개행하도록 한다
+          <br /><br />
+          https://<wbr />www<wbr />.creativebloq<wbr />.com/
+        </p>
+      </span>
+
+      <span id="translateno">
+        <p translate="no">Brand name</p>
+      </span>
+
+      <span id="greentest">
+        <head>
+          <style>
+            #parent-id #child-id {
+              color: green;
+              font-size: 10rem;
+            }
+            #parent-id div.child-clss {
+              color: blue;
+              font-size: 10rem;
+            }
+          </style>
+        </head>
+        <body>
+          <div id="parent-id">
+            <div id="child-id" class="child-clss">id</div>
+            <div class="child-clss">class</div>
+          </div>
+        </body>
+      </span>
+    </span>
+  </body>
+</html>
